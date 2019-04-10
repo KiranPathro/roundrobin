@@ -7,6 +7,7 @@ int main()
 	printf("Enter no. of process");
 	scanf("%d",&n);
 	n1=n;
+	printf("\nArrival time of atleast anyone process must be start from 0\n\n");
 	int arrival[10],burst[10],kiru[10];
 	for(i=0;i<n;i++){
 	printf("Enter Cpu arrival time of process %d:",i+1);
