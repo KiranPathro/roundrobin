@@ -9,12 +9,14 @@ int main()
 	n1=n;
 	printf("\nArrival time of atleast anyone process must be start from 0\n\n");
 	int arrival[10],burst[10],kiru[10];
+	printf("Enter Cpu burst and arrival time of each process");
 	for(i=0;i<n;i++){
-	printf("Enter Cpu arrival time of process %d:",i+1);
+	printf("arrival time of process %d:",i+1);
 	scanf("%d",&arrival[i]); 
-    printf("Enter Cpu burst time of process %d:",i+1); 
+    printf("burst time of process %d:",i+1); 
     scanf("%d",&burst[i]); 
 	kiru[i]=burst[i];
+	printf("\n");
 	}
 	int timequntm;
 	printf("Enter Time Quantum");
