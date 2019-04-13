@@ -9,7 +9,6 @@ int main()
 	n1=n;
 	printf("\nArrival time of atleast anyone process must be start from 0\n\n");
 	int arrival[10],burst[10],kiru[10];
-	printf("Enter Cpu burst and arrival time of each process");
 	for(i=0;i<n;i++){
 	printf("process %d:\n",i+1);
 	printf("Enter Cpu arrival time:\t",i+1);
@@ -56,8 +55,6 @@ int main()
     else 
       pa=0; 
   } 
-  printf("\nAverage Waiting Time= %f\n",wait_time*1.0/n); 
-  printf("Avg Turnaround Time = %f",turnaround_time*1.0/n); 
-  
-  return 0; 
+  printf("\nAverage Waiting Time= %f\n",waiting/n); 
+  printf("Avg Turnaround Time = %f",turnaround/n); 
 }
