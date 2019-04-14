@@ -27,7 +27,7 @@ int main()
 	int pathro=0,pa=0;
 	int kp=0;
 	float waiting,turnaround;
-	for(pathro=0,pa=0;n1!=0;) 
+	while(n1!=0) 
   { 
     if(kiru[pa]<=timequntm && kiru[pa]>0) 
     { 
