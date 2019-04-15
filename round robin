@@ -55,6 +55,8 @@ int main()
     else 
       pa=0; 
   } 
-  printf("\nAverage Waiting Time= %f\n",waiting/n); 
-  printf("Avg Turnaround Time = %f",turnaround/n); 
+  printf("*************************************"); 
+  printf("\n** Average Waiting Time= %f\n",waiting/n); 
+  printf("** Avg Turnaround Time = %f",turnaround/n); 
+  printf("\n*************************************");
 }
