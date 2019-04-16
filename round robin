@@ -10,7 +10,7 @@ int main()
 	printf("\nArrival time of atleast anyone process must be start from 0\n\n");
 	int arrival[10],burst[10],kiru[10];
 	for(i=0;i<n;i++){
-	printf("process %d:\n",i+1);
+	printf("process %d:\n",i+1);edit the arrival time
 	printf("Enter Cpu arrival time:\t",i+1);
 	scanf("%d",&arrival[i]); 
     printf("Enter Cpu burst time:\t",i+1);  
@@ -18,6 +18,16 @@ int main()
 	kiru[i]=burst[i];
 	printf("\n");
 	}
+	
+	int k=arrival[0];
+	for(i=0;i<n;i++){
+	if(k>arrival[i]){
+	k=arrival[i];
+	}}
+	for(i=0;i<n;i++){
+		arrival[i]=arrival[i]-k;
+	}
+	
 	int timequntm;
 	printf("Enter Time Quantum");
 	scanf("%d",&timequntm);
