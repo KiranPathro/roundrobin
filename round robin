@@ -9,7 +9,7 @@ int main()
 	n1=n;
 	int arrival[10],burst[10],kiru[10];
 	for(i=0;i<n;i++){
-	printf("process %d:\n",i+1);edit the arrival time
+	printf("process %d:\n",i+1);
 	printf("Enter Cpu arrival time:\t",i+1);
 	scanf("%d",&arrival[i]); 
     printf("Enter Cpu burst time:\t",i+1);  
